@@ -1,67 +1,30 @@
-# Linux Command Simulator
+# Desafio 1 — Command Description
 
-This repository contains small Python exercises created during a cybersecurity bootcamp.
+This program receives the name of a Linux command and returns its description.
 
-The goal of these projects is to practice basic Linux command concepts and simple logic using Python.
+## Supported Commands
 
-## Projects
+| Command | Description |
+|--------|-------------|
+| ls | lista arquivos e diretorios |
+| cd | altera o diretorio atual |
+| pwd | mostra o caminho do diretorio atual |
+| mkdir | cria um novo diretorio |
 
-### Desafio 1 — Command Description
+If the command is not recognized, the program returns:
 
-Receives a Linux command and returns its description.
+```
+comando invalido
+```
 
-Example
+## Example
 
 Input
 ```
-ls
+pwd
 ```
 
 Output
 ```
-lista arquivos e diretorios
+mostra o caminho do diretorio atual
 ```
-
-Location
-
-```
-desafio1/
-```
-
----
-
-### Desafio 2 — Task to Command
-
-Receives a description of a task and returns the correct Linux command.
-
-Example
-
-Input
-```
-listar arquivos do estoque
-```
-
-Output
-```
-ls
-```
-
-Location
-
-```
-desafio2/
-```
-
----
-
-## Technologies
-
-- Python 3
-- Linux fundamentals
-- Terminal commands
-
----
-
-## Author
-
-Luan Savarese
