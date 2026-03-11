@@ -1,17 +1,17 @@
-# Linux Command Simulator
+# Desafio 1 - Comando para descrição
+# Recebe um comando Linux e retorna sua descrição
 
-# Dictionary with Linux commands and descriptions
-commands = {
+# Adicione no dicionário com comandos Linux e suas descrições
+comandos = {
     "ls": "lista arquivos e diretorios",
     "cd": "altera o diretorio atual",
     "pwd": "mostra o caminho do diretorio atual",
     "mkdir": "cria um novo diretorio",
 }
 
-# Read command from user
+# Lê o comando digitado pelo usuário
 entrada = input().strip()
 
-# Get command description
-descricao = commands.get(entrada, "comando invalido")
-
+# Busca a descrição do comando ou informa se é inválido
+descricao = comandos.get(entrada, "comando invalido")
 print(descricao)
