@@ -1,30 +1,30 @@
-# Desafio 1 — Command Description
+# Desafio 2 — Task to Command
 
-This program receives the name of a Linux command and returns its description.
+This program receives a task description and returns the appropriate Linux command.
 
-## Supported Commands
+## Supported Tasks
 
-| Command | Description |
-|--------|-------------|
-| ls | lista arquivos e diretorios |
-| cd | altera o diretorio atual |
-| pwd | mostra o caminho do diretorio atual |
-| mkdir | cria um novo diretorio |
+| Task Example | Command |
+|-------------|---------|
+| listar arquivos | ls |
+| criar nova pasta | mkdir |
+| remover arquivo | rm |
+| mostrar conteudo | cat |
 
-If the command is not recognized, the program returns:
+If the task is not recognized, the program returns:
 
 ```
-comando invalido
+comando desconhecido
 ```
 
 ## Example
 
 Input
 ```
-pwd
+remover arquivo antigo
 ```
 
 Output
 ```
-mostra o caminho do diretorio atual
+rm
 ```
